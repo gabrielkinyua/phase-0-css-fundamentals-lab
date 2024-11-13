@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/*Center the header*/
+h1{
+    text-align: center;
+}
+
+/*Center the image*/
+img {
+  display: block;
+  margin: auto;
+  width: 900px;
+}
+figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+
+/*Styling the navigation bar*/
+nav {
+  text-align: center;
+}
+nav a {
+  display: inline-block;
+  padding: 10px;
+  background-color: gray;
+}
+
+/*Center the paragraph*/
+#featured-property p {
+  text-align: center;
+  width: 800px;
+  margin: 20px auto;
+}
+
+/*Center the details*/
+#details{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: red;
+}
